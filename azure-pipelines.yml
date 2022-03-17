@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '36fcef48-8bbc-45c9-863a-396f9f2310dc'
   imageRepository: 'aiwjava'
-  containerRegistry: 'acrcjh220.azurecr.io'
+  containerRegistry: 'aiwacr220.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
 
